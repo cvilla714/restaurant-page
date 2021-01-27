@@ -1,8 +1,8 @@
 import _ from "lodash";
 import "../sass/style.scss";
 // import "../sass/main.scss";
-// import "../images";
-console.log("puto");
+// import Icon from "../images";
+console.log("now what");
 const pageLoad = (() => {
   //container
   const contentContainer = document.querySelector("#content");
@@ -71,12 +71,14 @@ const pageLoad = (() => {
   contentContainer.appendChild(tabs);
 
   // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = Icon;
-
-  element.appendChild(myIcon);
+  // const myIcon = new Image();
+  // myIcon.src = Icon;
+  //
+  // element.appendChild(myIcon);
 })();
 
 export { pageLoad };
 
 console.log("starting to look good");
+console.log("starting ");
+console.log("starting twoo ");
