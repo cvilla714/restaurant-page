@@ -1,6 +1,8 @@
 import _ from "lodash";
-import "../css/style.css";
-import Icon from "../images";
+import "../sass/style.scss";
+// import "../sass/main.scss";
+// import "../images";
+console.log("puto");
 const pageLoad = (() => {
   //container
   const contentContainer = document.querySelector("#content");
