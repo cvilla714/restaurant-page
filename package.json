@@ -1,10 +1,12 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
+  "private": true,
   "description": "Restaurant Page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "build": "webpack"
   },
   "author": "Cosmel",
   "license": "ISC",
