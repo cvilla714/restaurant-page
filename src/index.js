@@ -1,2 +1,6 @@
 import { pageLoad } from "./page_load";
-console.log(pageLoad);
+import { tabsLoad, Tabs } from "./tabs";
+
+// create tabs
+const tabs = new Tabs(document.querySelector(".tabs"));
+tabs.init();
