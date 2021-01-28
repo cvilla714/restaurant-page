@@ -1,67 +1,36 @@
-const galeryLoad = (() => {
+const aboutLoad = (() => {
   //container
-  const contentgalery = document.querySelector("#content");
-  const galery = document.createElement("tabs");
-  galery.innerHTML = `
-    <section class="gallery">
-    <div class="cards-wrapper">
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-1.jpeg" class="card-img" alt="" />
-      </div>
-  
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-2.jpeg" alt="" class="card-img" />
-      </div>
-  
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-3.jpeg" alt="" class="card-img" />
-      </div>
-  
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-4.jpeg" alt="" class="card-img" />
-      </div>
-  
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-5.jpeg" alt="" class="card-img" />
-      </div>
-  
-      <div class="card">
-        <div class="card-overlay">
-          <h1 class="card-overlay-heading">Food Name</h1>
-          <p class="card-overlay-paragraph">Price:$30.00</p>
-          <button type="button" class="card-overlay-btn">Order Now</button>
-        </div>
-        <img src="../src/images/gallery-img-6.jpeg" alt="" class="card-img" />
-      </div>
+  const contentabout = document.querySelector("#content");
+  const about = document.createElement("tabs");
+  about.innerHTML = `
+  <section class="about-us">
+  <div class="about-us-left">
+    <img src="../src/images/about-us-img.png" alt="about-us" />
+  </div>
+
+  <div class="about-us-right">
+    <h1 class="main-heading">About Us</h1>
+    <h3 class="sub-heading">Introduce to Georgian Dishes</h3>
+    <div class="stars">
+      <i class="fas fa-star-of-life star"></i>
+      <i class="fas fa-star-of-life star"></i>
+      <i class="fas fa-star-of-life star"></i>
     </div>
-  </section>
+    <p class="description">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam voluptatum, reiciendis repellat sapiente quisquam, voluptates expedita hic aperiam ipsam tempora ex temporibus corrupti assumenda laboriosam libero. Perspiciatis iste harum unde voluptatem fugiat nobis suscipit corporis nemo
+      cum sapiente rem, praesentium mollitia, reiciendis temporibus quas, optio et id provident non cupiditate.
+    </p>
+    <div class="stars">
+      <i class="fas fa-star-of-life star"></i>
+      <i class="fas fa-star-of-life star"></i>
+      <i class="fas fa-star-of-life star"></i>
+    </div>
+    <button type="button" class="main-btn">Read More</button>
+  </div>
+</section>
   
         `;
 
-  contentgalery.appendChild(galery);
+  contentabout.appendChild(about);
 })();
+export default aboutLoad;
