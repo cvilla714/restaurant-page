@@ -1,7 +1,8 @@
 // import "../sass/base.scss";
 // import "../sass/components.scss";
 // import "../sass/layout.scss";
-// import "../css/style.css";
+// import "../sass/main.scss";
+import "../css/style.css";
 
 const navCnt = (() => {
   const contentNav = document.querySelector("#content");
