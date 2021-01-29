@@ -1,8 +1,8 @@
-import { pageLoad } from "./page_load";
-import aboutLoad from "./about";
-import galeryLoad from "./galery";
-import contactLoad from "./contact";
-// import { tabsLoad, Tabs } from "./tabs";
+// import pageLoad from "./page_load";
+// import aboutLoad from "./about";
+// import galeryLoad from "./galery";
+// import contactLoad from "./contact";
+import { tabsLoad, Tabs } from "./testtas";
 // import { navCnt } from "./nav";
 // import { galeryLoad } from "./galery";
 // import { mainnavCnt } from "./mainnav";

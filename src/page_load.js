@@ -67,12 +67,6 @@ const pageLoad = (() => {
   `;
 
   contentContainer.appendChild(header);
-
-  // Add the image to our existing div.
-  // const myIcon = new Image();
-  // myIcon.src = Icon;
-  //
-  // contentContainer.appendChild(myIcon);
 })();
 
-export { pageLoad };
+export default pageLoad;
