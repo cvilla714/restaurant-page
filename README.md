@@ -2,17 +2,16 @@
 
 # Restaurante Page
 
-> One paragraph statement about the project.
+> Project was based on creating a restaurant page using javascript to generate the tabs
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Sass
+- Webpack
+- Npm
+- Javascript
 
 ## Live Demo
 
@@ -20,53 +19,39 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To get started you can download the code by pressing in the top right corner on the green button**
 
-To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- Npm installed on your computer
+- Node as well
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+> Once you have downloaded the code please open you terminal and paste in this code
+> `git clone git@github.com:cvilla714/restaurant-page.git`
+> then please run this command to install all of the depencies for the app to run ` npm install`
 
 ## Authors
 
-👤 **Author1**
+👤 **Cosmel Vilalobos**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@cvilla714](https://github.com/cvilla714)
+- Twitter: [@kckeyti](https://twitter.com/kckeyti)
+- LinkedIn: [Cosmel Villalobos](https://www.linkedin.com/in/cosvilla/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/cvilla714/restaurant-page/pulls).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/cvilla714/restaurant-page/blob/development/LICENSE) licensed.
