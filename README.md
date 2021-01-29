@@ -32,6 +32,7 @@
 
 > Once you have downloaded the code please open you terminal and paste in this code
 > `git clone git@github.com:cvilla714/restaurant-page.git`
+> then please run this command to access the correct branch `git checkout work`
 > then please run this command to install all of the depencies for the app to run ` npm install`
 
 ### Usage
