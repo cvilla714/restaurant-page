@@ -1,11 +1,11 @@
 const aboutLoad = (() => {
   // container
-  const contentabout = document.querySelector('#content');
-  const about = document.createElement('tabs');
+  const contentabout = document.querySelector("#content");
+  const about = document.createElement("tabs");
   about.innerHTML = `
   <section class="about-us">
   <div class="about-us-left">
-    <img src="../src/images/about-us-img.png" alt="about-us" />
+    <img src="../src/images/about-us-img.png" />
   </div>
 
   <div class="about-us-right">

@@ -7,7 +7,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "build": "webpack",
-    "start": "webpack serve --open"
+    "watch": "webpack --watch"
   },
   "author": "Cosmel",
   "license": "ISC",
