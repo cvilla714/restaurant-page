@@ -10,10 +10,8 @@ const testtabLoad = (() => {
         <li class="trigger" data-target="#about">About</li>
         <li class="trigger" data-target="#galery">Galery</li>
         <li class="trigger" data-target="#contact">Conctact</li>
-        <li class="trigger" data-target="#returns">Returns info</li>
       </ul>
       <div id="home" class="content active">
-      <h3>Home</h3>
       <nav class="navbar">
       <input type="checkbox" id="check" class="checkbox" hidden />
       <div class="hamburger-menu">
@@ -33,22 +31,16 @@ const testtabLoad = (() => {
         <div class="navbar-navigation-right">
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a href="#" class="nav-list-link">Home</a>
+              <a href="#home" class="nav-list-link">Thank You</a>
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-list-link">About Us</a>
+              <a href="#about" class="nav-list-link">For</a>
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-list-link">Gallery</a>
+              <a href="#galery" class="nav-list-link">Your Visit</a>
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-list-link">Reservation</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-link">Services</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-link">Contact</a>
+              <a href="#contact" class="nav-list-link">Hope to see you Soon</a>
             </li>
           </ul>
         </div>
@@ -72,7 +64,6 @@ const testtabLoad = (() => {
      </div>
      
       <div id="about" class="content">
-        <h3>about</h3>
         <section class="about-us">
         <div class="about-us-left">
           <img src="../src/images/about-us-img.png" alt="about-us" />
@@ -100,12 +91,11 @@ const testtabLoad = (() => {
       </section>
       </div>
       <div id="galery" class="content">
-        <h3>Galery</h3>
         <section class="gallery">
         <div class="cards-wrapper">
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Burritos</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -114,7 +104,7 @@ const testtabLoad = (() => {
       
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Custom Pancakes</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -123,7 +113,7 @@ const testtabLoad = (() => {
       
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Home Made Pizzas</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -132,7 +122,7 @@ const testtabLoad = (() => {
       
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Fish</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -141,7 +131,7 @@ const testtabLoad = (() => {
       
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Salads</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -150,7 +140,7 @@ const testtabLoad = (() => {
       
           <div class="card">
             <div class="card-overlay">
-              <h1 class="card-overlay-heading">Food Name</h1>
+              <h1 class="card-overlay-heading">Steaks</h1>
               <p class="card-overlay-paragraph">Price:$30.00</p>
               <button type="button" class="card-overlay-btn">Order Now</button>
             </div>
@@ -160,7 +150,6 @@ const testtabLoad = (() => {
       </section>
       </div>
       <div id="contact" class="content">
-        <h3>contact</h3>
         <footer class="footer">
         <div class="footer-header">
           <a href="#" class="logo"><i class="fas fa-utensils"></i></a>

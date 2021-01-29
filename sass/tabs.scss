@@ -4,7 +4,8 @@
 .tabs .trigger {
   list-style-type: none;
   padding: 10px;
-  background: #f2f2f2;
+  color: white;
+  // background: #f2f2f2;
   margin: 4px;
   border-radius: 6px;
   display: inline-block;
@@ -16,7 +17,7 @@
   color: white;
 }
 .tabs .content {
-  background: #fbfbfb;
+  // background: #fbfbfb;
   padding: 10px 20px;
   border-radius: 6px;
   display: none;
