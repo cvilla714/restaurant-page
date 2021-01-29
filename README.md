@@ -34,6 +34,13 @@
 > `git clone git@github.com:cvilla714/restaurant-page.git`
 > then please run this command to install all of the depencies for the app to run ` npm install`
 
+### Usage
+
+> In order to run the app once you have already installed it please run this comman in your terminal
+> `npm run watch`
+> then click on the index.html and open it with liver server
+> this will open a new browser with the app ready to use.
+
 ## Authors
 
 👤 **Cosmel Vilalobos**

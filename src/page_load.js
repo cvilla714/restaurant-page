@@ -1,8 +1,8 @@
 const pageLoad = (() => {
   // container
-  const contentContainer = document.querySelector("#content");
+  const contentContainer = document.querySelector('#content');
 
-  const header = document.createElement("header");
+  const header = document.createElement('header');
   header.innerHTML = `
   <nav class="navbar">
   <input type="checkbox" id="check" class="checkbox" hidden />
