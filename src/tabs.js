@@ -1,9 +1,9 @@
-import '../sass/tabs.scss';
+import "../sass/tabs.scss";
 
 const testtabLoad = (() => {
   // container
-  const contentTabs = document.querySelector('#content');
-  const tabs = document.createElement('tabs');
+  const contentTabs = document.querySelector("#content");
+  const tabs = document.createElement("tabs");
   tabs.innerHTML = `
     <div class="tabs">
       <ul>
@@ -199,13 +199,13 @@ const testtabLoad = (() => {
 class Tabs {
   constructor(container) {
     this.container = container;
-    this.tabs = container.querySelectorAll('.trigger');
+    this.tabs = container.querySelectorAll(".trigger");
   }
 
   init() {
     this.tabs.forEach((tab) => {
-      tab.addEventListener('click', (e) => {
-        if (e.target.tagName === 'LI') {
+      tab.addEventListener("click", (e) => {
+        if (e.target.tagName === "LI") {
           this.toggleTabs(e);
           this.toggleContent(e);
         }
@@ -214,21 +214,17 @@ class Tabs {
   }
 
   toggleTabs(e) {
-    // remove current active classes
-    this.tabs.forEach((tab) => tab.classList.remove('active'));
-    // add new active class
-    e.target.classList.add('active');
+    this.tabs.forEach((tab) => tab.classList.remove("active"));
+    e.target.classList.add("active");
   }
 
   toggleContent(e) {
-    // remove current active classes
-    this.container.querySelectorAll('.content').forEach((item) => {
-      item.classList.remove('active');
+    this.container.querySelectorAll(".content").forEach((item) => {
+      item.classList.remove("active");
     });
-    // add new active class
-    const selector = e.target.getAttribute('data-target');
+    const selector = e.target.getAttribute("data-target");
     const content = this.container.querySelector(selector);
-    content.classList.add('active');
+    content.classList.add("active");
   }
 }
 
