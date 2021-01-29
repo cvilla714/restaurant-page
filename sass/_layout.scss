@@ -11,6 +11,7 @@ $font-nunito: "Nunito", sans-serif;
 .navbar {
   position: relative;
   z-index: 20;
+
   &-navigation {
     display: flex;
 
@@ -62,6 +63,7 @@ $font-nunito: "Nunito", sans-serif;
           left: 15%;
         }
       }
+
       .left-img-3 {
         top: 55%;
         left: 35%;
@@ -80,7 +82,9 @@ $font-nunito: "Nunito", sans-serif;
       // right: 0;
       // by adding the -50vw i am hiding the images outside the screen
       right: -50vw;
+
       @include flexLayout;
+
       transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 
       @media (max-width: 800px) {
@@ -88,6 +92,7 @@ $font-nunito: "Nunito", sans-serif;
         right: -100vw;
       }
     }
+
     .nav-list {
       &-item {
         list-style: none;
@@ -97,7 +102,9 @@ $font-nunito: "Nunito", sans-serif;
       &-link {
         font-family: $font-dancingScript;
         font-size: 50px;
+
         @include textStyles(capitalize);
+
         color: $color-white;
         text-decoration: none;
         display: block;
@@ -133,15 +140,17 @@ $font-nunito: "Nunito", sans-serif;
 .checkbox:checked ~ .hamburger-menu .menu-line-1 {
   transform: rotateZ(-40deg);
 }
+
 .checkbox:checked ~ .hamburger-menu .menu-line-2 {
   opacity: 0;
 }
+
 .checkbox:checked ~ .hamburger-menu .menu-line-3 {
   transform: rotateZ(40deg);
 }
 
 .header {
-  widows: 100%;
+  width: 100%;
   height: 100vh;
   position: relative;
   background: linear-gradient(rgba($color-black, 0.8), rgba($color-black, 0.6)), url(../images/bg.jpeg) center no-repeat;
@@ -165,12 +174,14 @@ $font-nunito: "Nunito", sans-serif;
 
   &-banner {
     @include centering(50%);
+
     text-align: center;
   }
 }
 
 .about-us {
   height: 90vh;
+
   @include flex-aic;
 
   @media (max-width: 900px) {
@@ -198,7 +209,9 @@ $font-nunito: "Nunito", sans-serif;
 
   &-right {
     width: 60%;
+
     @include flex-aic;
+
     flex-direction: column;
     padding: 0 100px;
 
@@ -238,6 +251,7 @@ $font-nunito: "Nunito", sans-serif;
       &::first-letter {
         padding-left: 50px;
       }
+
       @media (max-width: 1600px) {
         font-size: 18px;
       }
@@ -262,7 +276,9 @@ $font-nunito: "Nunito", sans-serif;
 
 .footer {
   padding: 70px;
+
   @include flexLayout;
+
   flex-direction: column;
 
   @media (max-width: 500px) {
@@ -271,6 +287,7 @@ $font-nunito: "Nunito", sans-serif;
 
   &-header {
     @include flex-aic;
+
     margin-bottom: 70px;
   }
 
@@ -298,6 +315,7 @@ $font-nunito: "Nunito", sans-serif;
       &:hover {
         color: $color-primary;
       }
+
       @media (max-width: 1000px) {
         font-size: 35px;
       }
@@ -312,7 +330,9 @@ $font-nunito: "Nunito", sans-serif;
     font-family: $font-josefinSans;
     font-size: 18px;
     color: $color-secondary;
+
     @include textStyles(capitalize);
+
     @media (max-width: 800px) {
       width: 70%;
       margin: auto;

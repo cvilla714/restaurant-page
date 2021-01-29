@@ -16,8 +16,10 @@
     width: 25px;
     height: 25px;
   }
+
   .menu {
     @extend %fullSpace;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -51,6 +53,7 @@
   //   align-items: center;
   //incluging the first mixing
   @include flexLayout;
+
   width: 110px;
   height: 110px;
   border: 3px solid $color-primary;
@@ -93,6 +96,7 @@
   font-size: 18px;
   color: $color-secondary;
   text-align: center;
+
   @include textStyles;
 
   @media (max-width: 500px) {
@@ -187,10 +191,6 @@
   //   add the property overflow hidden step 2
   overflow: hidden;
 
-  &:hover .card-overlay {
-    left: 0;
-  }
-
   &-overlay {
     position: absolute;
     top: 0;
@@ -202,10 +202,13 @@
     // width: 100%;
     // height: 100%;
     @extend %fullSpace;
+
     background-color: rgba($color-primary, 0.6);
     color: $color-white;
     z-index: 10;
+
     @include flexLayout;
+
     flex-direction: column;
     // this is the last thing i need to add to make it appear from
     // ouside the page step 3
@@ -214,6 +217,7 @@
     &-heading {
       font-family: $font-nunito;
       font-size: 50px;
+
       @include textStyles(capitalize);
 
       @media (max-width: 900px) {
@@ -233,6 +237,7 @@
       font-family: $font-josefinSans;
       font-size: 30px;
       margin-bottom: 30px;
+
       @include textStyles(capitalize);
 
       @media (max-width: 900px) {
@@ -282,7 +287,12 @@
     // width: 100%;
     // height: 100%;
     @extend %fullSpace;
+
     object-fit: cover;
     opacity: 0.5;
+  }
+
+  &:hover .card-overlay {
+    left: 0;
   }
 }

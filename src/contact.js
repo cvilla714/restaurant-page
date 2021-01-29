@@ -1,7 +1,7 @@
 const contactLoad = (() => {
-  //container
-  const contentContact = document.querySelector("#content");
-  const contact = document.createElement("tabs");
+  // container
+  const contentContact = document.querySelector('#content');
+  const contact = document.createElement('tabs');
   contact.innerHTML = `
     <footer class="footer">
     <div class="footer-header">

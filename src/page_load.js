@@ -1,12 +1,12 @@
-import _ from "lodash";
+// import _ from 'lodash';
 // import "../css/style.css";
 // import Icon from "../src/images/nav-img-1.jpeg";
 
 const pageLoad = (() => {
-  //container
-  const contentContainer = document.querySelector("#content");
+  // container
+  const contentContainer = document.querySelector('#content');
 
-  const header = document.createElement("header");
+  const header = document.createElement('header');
   header.innerHTML = `
   <nav class="navbar">
   <input type="checkbox" id="check" class="checkbox" hidden />

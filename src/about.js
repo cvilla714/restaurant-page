@@ -1,7 +1,7 @@
 const aboutLoad = (() => {
-  //container
-  const contentabout = document.querySelector("#content");
-  const about = document.createElement("tabs");
+  // container
+  const contentabout = document.querySelector('#content');
+  const about = document.createElement('tabs');
   about.innerHTML = `
   <section class="about-us">
   <div class="about-us-left">

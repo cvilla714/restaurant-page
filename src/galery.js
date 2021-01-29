@@ -1,7 +1,7 @@
 const galeryLoad = (() => {
-  //container
-  const contentgalery = document.querySelector("#content");
-  const galery = document.createElement("tabs");
+  // container
+  const contentgalery = document.querySelector('#content');
+  const galery = document.createElement('tabs');
   galery.innerHTML = `
   <section class="gallery">
   <div class="cards-wrapper">
