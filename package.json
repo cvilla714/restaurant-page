@@ -1,4 +1,5 @@
 {
+  "git repository": "https://github.com/cvilla714/restaurant-page/tree/development",
   "name": "restaurant",
   "version": "1.0.0",
   "private": true,
@@ -7,6 +8,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "build": "webpack",
+    "start": "webpack serve --open",
     "watch": "webpack --watch"
   },
   "author": "Cosmel",

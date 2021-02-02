@@ -1,11 +1,12 @@
+import aboutus from "../src/images/about-us-img.png";
 const aboutLoad = (() => {
   // container
-  const contentabout = document.querySelector('#content');
-  const about = document.createElement('tabs');
+  const contentabout = document.querySelector("#content");
+  const about = document.createElement("tabs");
   about.innerHTML = `
   <section class="about-us">
   <div class="about-us-left">
-    <img src="../src/images/about-us-img.png" />
+    <img src={aboutus} />
   </div>
 
   <div class="about-us-right">

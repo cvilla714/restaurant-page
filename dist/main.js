@@ -561,7 +561,7 @@ module.exports = function (list, options) {
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "d1b178a16cae710955d9.jpeg";
+module.exports = __webpack_require__.p + "images/d1b178a16cae710955d9.jpeg";
 
 /***/ }),
 
