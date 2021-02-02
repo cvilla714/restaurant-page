@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/cvilla714/restaurant-page/4e6e899bba8894e04bb6481fdfec67082086a407/dist/index.html)
 
 ## Getting Started
 
