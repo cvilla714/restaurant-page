@@ -3,6 +3,8 @@
 # Restaurante Page
 
 > Project was based on creating a restaurant page using javascript to generate the tabs
+> Also using a single div element inside the HTL to append all the content.
+> Each tab has a different content.
 
 ![screenshot](./app_screenshot.png)
 
